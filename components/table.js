@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { View, ViewPropTypes } from 'react-native';
+import PropTypes from 'prop-types';
 
 export class Table extends Component {
   static propTypes = {

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { View, ViewPropTypes, Text, StyleSheet } from 'react-native';
+import PropTypes from 'prop-types';
 import { Cell } from './cell';
 import { sum } from '../utils';
 
