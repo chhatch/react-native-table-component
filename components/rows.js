@@ -5,8 +5,8 @@ import { sum } from '../utils';
 
 export class Row extends Component {
   static propTypes = {
-    style: ViewPropTypes.style,
-    textStyle: Text.propTypes.style
+    style: PropTypes.any,
+    textStyle: PropTypes.any,
   };
 
   render() {
